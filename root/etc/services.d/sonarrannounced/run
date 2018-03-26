@@ -5,4 +5,4 @@ umask 022
 cd /config
 
 exec \
-	s6-setuidgid abc /usr/bin/python3.6 /config/bot.py
+	s6-setuidgid abc /usr/bin/python3.5 /config/bot.py
