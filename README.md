@@ -1,4 +1,4 @@
-The way somethings are hardcoded you will want to make sure to have a settings.cfg in your /config volume, which will also include the python scripts for the trackers.
+The way somethings are hardcoded you will want to make sure to have a settings.cfg in your /config volume, which will also include the python scripts for the trackers. Also there seems to be some issues currently in this latest build I've created an alpha branch to that pulls from another source which should work fine.
 
 This is still very much in development and still in active testing.
 
