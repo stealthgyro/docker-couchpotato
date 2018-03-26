@@ -1,3 +1,21 @@
+Some issues with Pydle and tornado perhaps? tring some different requirements, I saw pydle was updated to grab a specific version of tornado.... 
+```
+Traceback (most recent call last):
+  File "/config/bot.py", line 6, in <module>
+    import manager
+  File "/config/manager.py", line 6, in <module>
+    import irc
+  File "/config/irc.py", line 4, in <module>
+    import pydle
+  File "/usr/lib/python3.5/site-packages/pydle/__init__.py", line 1, in <module>
+    from . import async, connection, protocol, client, features
+  File "/usr/lib/python3.5/site-packages/pydle/async.py", line 17, in <module>
+    class Future(tornado.concurrent.TracebackFuture):
+AttributeError: module 'tornado.concurrent' has no attribute 'TracebackFuture'
+```
+
+
+
 The way somethings are hardcoded you will want to make sure to have a settings.cfg in your /config volume, which will also include the python scripts for the trackers.
 
 This is still very much in development and still in active testing.
@@ -16,6 +34,7 @@ if there are issues with updating, just delete all files except those.
 
 
 [sonarrannounced](https://github.com/l3uddz/sonarrAnnounced) Python script to notify sonarr of tracker announcements from IRC announce channels.
+[sonarrannouncedMod](https://github.com/stealthgyro/sonarrAnnounced) Python script to notify sonarr of tracker announcements from IRC announce channels.
 
 
 ## Usage

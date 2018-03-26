@@ -6,7 +6,7 @@ mkdir -p \
 
 # install app
  [[ ! -d "/config/temp/.git" ]] && \
-	git clone https://github.com/l3uddz/sonarrAnnounced /config/temp
+	git clone https://github.com/stealthgyro/sonarrAnnounced /config/temp
 	cp -r /config/temp/* /config
 	rm -rf /config/temp
 	pip3 install -r /config/requirements.txt
