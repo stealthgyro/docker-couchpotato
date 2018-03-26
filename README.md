@@ -46,7 +46,7 @@ docker create \
 	-e PGID=<gid> -e PUID=<uid>  \
 	-e TZ=<timezone> \
 	-p 3467:3467 \
-	stealthgyro/docker-sonarrannounced
+	stealthgyro/docker-sonarrannounced:alpha
 ```
 
 ## Parameters
