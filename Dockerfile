@@ -1,4 +1,4 @@
-FROM rlesouef/alpine-python-3.5
+FROM lsiobase/alpine.python:3.7
 
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \
