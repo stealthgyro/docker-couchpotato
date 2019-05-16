@@ -1,4 +1,4 @@
-Some issues with Pydle and tornado perhaps? tring some different requirements, I saw pydle was updated to grab a specific version of tornado.... 
+Some issues with Pydle and tornado perhaps? tring some different requirements, I saw pydle was updated to grab a specific version of tornado....
 ```
 Traceback (most recent call last):
   File "/config/bot.py", line 6, in <module>
@@ -41,12 +41,12 @@ if there are issues with updating, just delete all files except those.
 
 ```
 docker create \
-	--name=sonarrannounced \
-	-v <path to data>:/config \
-	-e PGID=<gid> -e PUID=<uid>  \
-	-e TZ=<timezone> \
-	-p 3467:3467 \
-	stealthgyro/docker-sonarrannounced:alpha
+  --name=sonarrannounced \
+  -v <path to data>:/config \
+  -e PGID=<gid> -e PUID=<uid>  \
+  -e TZ=<timezone> \
+  -p 3467:3467 \
+  stealthgyro/docker-sonarrannounced:alpha
 ```
 
 ## Parameters
